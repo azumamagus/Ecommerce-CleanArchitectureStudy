@@ -1,0 +1,11 @@
+﻿global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.DependencyInjection.Extensions;
+global using Raven.Client.Documents;
+global using Ecommerce.Infrastructure.CrossCuting.Options;
+global using Microsoft.Extensions.Options;
+global using Ecommerce.Domain.Core.Interfaces.Repositories;
+global using Ecommerce.Domain.Model;
+global using Raven.Client.Documents.Session;
+global using Ecommerce.Infrastructure.Data.Repositories;
+global using Ecommerce.Domain.Core.Services;
+global using Ecommerce.Domain.Services;
